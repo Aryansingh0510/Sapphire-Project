@@ -1,0 +1,16 @@
+# Build output
+dist/
+dist-ssr/
+
+# Local env files — NEVER commit these
+# The ! line below keeps .env.example tracked (it's safe to share)
+.env
+.env.*
+!.env.example
+
+# Dependencies (re-installed with npm install)
+node_modules/
+
+# Editor / OS
+.DS_Store
+*.local
